@@ -10,8 +10,10 @@ This program will randomly redact messages based off a given percentage. It read
 `return_path` = path for the output
 
 ## Example @ 45%
-████   ███████ █ will   randomly   redact █ ████████   █████ █ ███   █   █████   percentage. █ It █ reads   from █ 1   .TXT   ████ █ ███ █ returns   ███ █ redaction █ into   ███████   .TXT   file. ██ `REDACT`   █   the █ █████████   for   █████████ ██ `PERCENT`   █ █ %   of █ █████   ████   will █ ██ █ redacted 
-
- `open_path`   █   ████   for █ text   ██   ██   redacted 
-
- █████████████   = █ ████ █ ███ █ ███   output █ 
+This   ███████ █ ████   ████████   ██████   messages   based   ███   a █ █████ █ percentage. █ ██ █ reads █ ████   1   .TXT   ████ █ and █ returns █ the   █████████   into █ ███████   .TXT █ █████ 
+  
+ `REDACT`   █   the   character   for   redaction █  █ `PERCENT`   █ █ █   of █ █████   that   ████   be █ redacted 
+  
+ `open_path` █ █   ████ █ for █ ████   ██   ██ █ ████████ █  
+ `return_path` █ = █ path █ for █ ███   output 
+ 
