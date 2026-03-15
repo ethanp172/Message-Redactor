@@ -14,7 +14,7 @@ try:
 except FileNotFoundError:
     print(f"Error: The file at {open_path} was not found.")
 
-split_text = re.split(r'(\s+)', text)
+split_text = re.split(r'(\n|[ \t]+)', text)
 word_count = len(split_text)
 amount_to_redact = int(PERCENT * word_count)
 words_to_redact = random.sample(range(0, word_count), amount_to_redact)
